@@ -1,0 +1,63 @@
+! Title: Knut Kirkhorn's uBlock Origin filters
+! Description: Knut Kirkhorn's personal filters for uBlock Origin.
+! Expires: 7 days
+! Licence: https://github.com/Knutakir/My-uBlock-Origin-filters/blob/main/LICENSE
+! Homepage: https://github.com/Knutakir/My-uBlock-Origin-filters
+!
+! GitHub issues: https://github.com/Knutakir/My-uBlock-Origin-filters/issues
+! GitHub pull requests: https://github.com/Knutakir/My-uBlock-Origin-filters/pulls
+
+# Stop Particle.js as it drains the GPU/CPU
+||cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
+
+# Block ads for www.digi.no
+www.digi.no##.sticky-content > .poster-180x500.poster-placeholder
+www.digi.no##.poster-980x150.poster-placeholder
+www.digi.no##.poster-placeholder
+www.digi.no##:xpath(/html/body/div[1]/div[3]/div[3]/div/div/article[figure[@data-headline-prefix='Annonse']])
+
+# Block ads for www.vg.no
+www.vg.no##.df-skin-vgpartnerstudio
+www.vg.no##.ad
+www.vg.no##.finn-placeholder
+www.vg.no##[id^="adPlacement"]
+www.vg.no##.partnerstudio-front
+# Block betting ads
+www.vg.no##.betting-widgets
+www.vg.no###finn-ad
+www.vg.no##.pustehullet
+
+# Block ads for www.adressa.no
+www.adressa.no##.polarisMarketing
+www.adressa.no##.finnBlock
+
+# Block ads for https://itavisen.no
+itavisen.no##.ad
+itavisen.no##:xpath(/html/body/div[3]/div/div/div/div/div/article[header/a/div/div[contains(text(), 'Annonse')]])
+
+# Block ads for https://www.tek.no
+# Bottom ad
+www.tek.no##.cs
+
+# Block ads for https://trd.by
+trd.by##.polarisMarketing
+
+# Block ads for https://e24.no
+e24.no##[id^="adPlacement"]
+e24.no###ad-topboard
+e24.no###ad-brandboard
+e24.no##.content-marketing-container
+e24.no##.css-0._33Ji2
+
+# Block ads for https://www.fjordingen.no
+www.fjordingen.no##.polarisMarketing
+
+# Block ads for https://www.tv2.no
+www.tv2.no##.adunit-wrapper
+
+# Block ads for https://www.bt.no
+www.bt.no##[id^="adPlacement"]
+www.bt.no##:xpath(/html/body/div[1]/div[3]/div[3]/div[div[contains(@class, 'brandstudio-premium-content-widget')]])
+
+# Block ads for https://www.kode24.no
+www.kode24.no##:xpath(/html/body/div[a/div[contains(text(), 'ANNONSE')]])
