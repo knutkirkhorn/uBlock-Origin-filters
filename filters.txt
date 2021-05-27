@@ -49,6 +49,7 @@ e24.no###ad-brandboard
 e24.no##.content-marketing-container
 e24.no##.css-0._33Ji2
 e24.no##:xpath(/html/body/div[2]/div[4]/div[2]/div[2]/div[div/a/div/span[contains(text(), 'Annonsørinnhold')]])
+e24.no##:xpath(/html/body/div[2]/div[4]/div[2]/div[2]/div[1]/div[div/a/div[1]/span[contains(text(), 'Annonsørinnhold')]])
 
 # Block ads for https://www.fjordingen.no
 www.fjordingen.no##.polarisMarketing
