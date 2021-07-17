@@ -37,7 +37,7 @@ itavisen.no##:xpath(/html/body/div[3]/div/div/div/div/div/article[header/a/div/d
 
 # Block ads for https://www.tek.no
 # Bottom ad
-www.tek.no##.cs
+www.tek.no##:xpath(/html/body/div[1]/div[3]/div[3]/main/div/div[div/div[1][contains(text(), 'annonse')]])
 
 # Block ads for https://trd.by
 trd.by##.polarisMarketing
