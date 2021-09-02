@@ -34,6 +34,8 @@ www.adressa.no##.finnBlock
 # Block ads for https://itavisen.no
 itavisen.no##.ad
 itavisen.no##:xpath(/html/body/div[3]/div/div/div/div/div/article[header/a/div/div[contains(text(), 'Annonse')]])
+itavisen.no##:xpath(//div[p/span[contains(text(), 'Annonse')]])
+itavisen.no##:xpath(//div[ins[contains(@class, 'adsbygoogle')]])
 
 # Block ads for https://www.tek.no
 # Bottom ad
