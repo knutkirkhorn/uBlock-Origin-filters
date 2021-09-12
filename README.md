@@ -10,8 +10,8 @@
 1. Go to uBlock Origin plugin options (click icon and then `Open the Dashboard`)
 2. Go to `Filter lists` tab
 3. Check `Import` under the `Custom` section
-4. Append [this URL](https://raw.githubusercontent.com/Knutakir/My-uBlock-Origin-filters/main/filters.txt) (`https://raw.githubusercontent.com/Knutakir/My-uBlock-Origin-filters/main/filters.txt`) to the input box
+4. Append [this URL](https://raw.githubusercontent.com/knutkirkhorn/My-uBlock-Origin-filters/main/filters.txt) (`https://raw.githubusercontent.com/knutkirkhorn/My-uBlock-Origin-filters/main/filters.txt`) to the input box
 5. Click <kbd>Apply changes</kbd>
 
 ## License
-MIT © [Knut Kirkhorn](https://github.com/Knutakir/My-uBlock-Origin-filters/blob/main/LICENSE)
+MIT © [Knut Kirkhorn](https://github.com/knutkirkhorn/My-uBlock-Origin-filters/blob/main/LICENSE)

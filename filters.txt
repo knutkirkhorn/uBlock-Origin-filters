@@ -1,11 +1,11 @@
 ! Title: Knut Kirkhorn's uBlock Origin filters
 ! Description: Knut Kirkhorn's personal filters for uBlock Origin.
 ! Expires: 7 days
-! Licence: https://github.com/Knutakir/My-uBlock-Origin-filters/blob/main/LICENSE
-! Homepage: https://github.com/Knutakir/My-uBlock-Origin-filters
+! Licence: https://github.com/knutkirkhorn/My-uBlock-Origin-filters/blob/main/LICENSE
+! Homepage: https://github.com/knutkirkhorn/My-uBlock-Origin-filters
 !
-! GitHub issues: https://github.com/Knutakir/My-uBlock-Origin-filters/issues
-! GitHub pull requests: https://github.com/Knutakir/My-uBlock-Origin-filters/pulls
+! GitHub issues: https://github.com/knutkirkhorn/My-uBlock-Origin-filters/issues
+! GitHub pull requests: https://github.com/knutkirkhorn/My-uBlock-Origin-filters/pulls
 
 # Stop Particle.js as it drains the GPU/CPU
 ||cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
