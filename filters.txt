@@ -65,6 +65,8 @@ www.bt.no##:xpath(/html/body/div[1]/div[3]/div[3]/div[div[contains(@class, 'bran
 www.kode24.no##:xpath(/html/body/div[a/div[contains(text(), 'ANNONSE')]])
 
 # Block ads for https://etherscan.io
+# Home page
+etherscan.io##:xpath(/html/body/div[1]/main/section/div/div/div[2]/div[a[3]/span[contains(text(), 'Ad')]])
 # Address exploring page => middle screen
 etherscan.io##:xpath(/html/body/div[1]/main/div[4]/div[div/div/a[3]/span[contains(text(), 'Ad')]])
 etherscan.io##:xpath(/html/body/div[1]/main/div[4]/div[div/ins/div[1]/a[3]/span[contains(text(), 'Ad')]])
