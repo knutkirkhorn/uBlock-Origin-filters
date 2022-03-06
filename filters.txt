@@ -81,3 +81,9 @@ bscscan.com##:xpath(/html/body/div[1]/main/div[4]/div[div/div/a[3]/span[contains
 bscscan.com##:xpath(/html/body/div[1]/main/div[4]/div[div/ins/div[1]/a[3]/span[contains(text(), 'Ad')]])
 bscscan.com##:xpath(/html/body/div[1]/main/div[div/div/span/ins/b[contains(text(), 'Sponsored:')]])
 bscscan.com##:xpath(/html/body/div[1]/main/div[div/div/span/ins[contains(text(), ' - Sponsored slots available. ')]])
+
+# Block ads for https://polygonscan.com
+# Home page
+polygonscan.com##:xpath(/html/body/div[1]/main/section/div/div/div[2]/div[a[3]/span[contains(text(), 'Ad')]])
+# Address exploring page => middle screen
+polygonscan.com##:xpath(/html/body/div[1]/main/div[4]/div[div/div/a[3]/span[contains(text(), 'Ad')]])
