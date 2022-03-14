@@ -65,6 +65,8 @@ www.bt.no##:xpath(/html/body/div[1]/div[3]/div[3]/div[div[contains(@class, 'bran
 www.kode24.no##:xpath(/html/body/div[a/div[contains(text(), 'ANNONSE')]])
 # Block advertised job listings
 www.kode24.no##article.native-advertisement
+# User behavior
+||kode24.no/app/aas/a
 
 # Block ads for https://etherscan.io
 # Home page
