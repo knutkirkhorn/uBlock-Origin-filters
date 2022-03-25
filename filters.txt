@@ -63,6 +63,7 @@ www.bt.no##:xpath(/html/body/div[1]/div[3]/div[3]/div[div[contains(@class, 'bran
 
 # Block ads for https://www.kode24.no
 www.kode24.no##:xpath(/html/body/div[a/div[contains(text(), 'ANNONSE')]])
+www.kode24.no##[id^="ad-banner"]
 # Block advertised job listings
 www.kode24.no##article.native-advertisement
 # User behavior
