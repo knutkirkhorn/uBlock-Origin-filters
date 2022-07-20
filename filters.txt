@@ -32,6 +32,9 @@ www.vg.no##.pustehullet
 www.adressa.no##.polarisMarketing
 www.adressa.no##.finnBlock
 
+# Block ads for midtnorskdebatt.no
+www.midtnorskdebatt.no##.polarisMarketing
+
 # Block ads for https://itavisen.no
 itavisen.no##.ad
 itavisen.no##:xpath(/html/body/div[3]/div/div/div/div/div/article[header/a/div/div[contains(text(), 'Annonse')]])
