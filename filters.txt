@@ -21,7 +21,7 @@ www.digi.no##[id^="adContainer-"]
 www.vg.no##.df-skin-vgpartnerstudio
 www.vg.no##.ad
 www.vg.no##.finn-placeholder
-www.vg.no##[id^="adPlacement"]
+www.vg.no##div:has(> [id^="adPlacement"])
 www.vg.no##.partnerstudio-front
 # Block betting ads
 www.vg.no##.betting-widgets
