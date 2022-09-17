@@ -27,6 +27,7 @@ www.vg.no##.partnerstudio-front
 www.vg.no##.betting-widgets
 www.vg.no###finn-ad
 www.vg.no##.pustehullet
+www.vg.no##div.container:has(> [href^="https://www.vektklubb.no/bli-medlem"])
 
 # Block ads for www.adressa.no
 www.adressa.no##.polarisMarketing
