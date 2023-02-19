@@ -30,6 +30,7 @@ www.vg.no##.pustehullet
 www.vg.no##div.container:has(> [href^="https://www.vektklubb.no/bli-medlem"])
 www.vg.no##div.finn-blink-loaded
 www.vg.no###finn-netboard_article
+www.vg.no##div.hyperion-css-2s0mxl
 
 # Block ads for www.adressa.no
 www.adressa.no##.polarisMarketing
