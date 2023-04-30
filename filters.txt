@@ -15,6 +15,10 @@ www.digi.no##.sticky-content > .poster-180x500.poster-placeholder
 www.digi.no##.poster-980x150.poster-placeholder
 www.digi.no##.poster-placeholder
 www.digi.no##[id^="adContainer-"]
+www.digi.no##.side-ads-wrapper
+www.digi.no##.lg\:h-\[320px\].lg\:flex.hidden.mx-auto.my-4.banner.flex-col.flex
+www.digi.no##[id^="row-"] > .my-6.max-w-screen-lg > .\!no-underline > div > .group.relative.border.flex-col.bg-white.flex
+www.digi.no##[id^="row-"] > .full-page-ad
 
 # Block ads for www.vg.no
 www.vg.no##.df-skin-vgpartnerstudio
