@@ -14,7 +14,6 @@
 www.digi.no##.sticky-content > .poster-180x500.poster-placeholder
 www.digi.no##.poster-980x150.poster-placeholder
 www.digi.no##.poster-placeholder
-www.digi.no##:xpath(/html/body/div[1]/div[3]/div[3]/div/div/article[figure[@data-headline-prefix='Annonse']])
 www.digi.no##[id^="adContainer-"]
 
 # Block ads for www.vg.no
@@ -27,7 +26,6 @@ www.vg.no###finn-ad
 www.vg.no##.pustehullet
 www.vg.no##div.container:has(> [href^="https://www.vektklubb.no/bli-medlem"])
 www.vg.no##div.finn-blink-loaded
-www.vg.no##div.hyperion-css-2s0mxl
 www.vg.no##[id^="finn-netboard_article"]
 # Block betting ads
 www.vg.no##.betting-widgets
