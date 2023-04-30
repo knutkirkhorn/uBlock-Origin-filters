@@ -24,7 +24,7 @@ www.digi.no##[id^="row-"] > .full-page-ad
 www.vg.no##.df-skin-vgpartnerstudio
 www.vg.no##.ad
 www.vg.no##.finn-placeholder
-www.vg.no##[id^="adPlacement"]
+www.vg.no##div:has(> [id^="adPlacement"])
 www.vg.no##.partnerstudio-front
 www.vg.no###finn-ad
 www.vg.no##.pustehullet
