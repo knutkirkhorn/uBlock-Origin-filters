@@ -58,8 +58,6 @@ e24.no##[id^="adPlacement"]
 e24.no###ad-topboard
 e24.no###ad-brandboard
 e24.no##.content-marketing-container
-e24.no##:xpath(/html/body/div/div/div/div/div[div/div/div/div/div[contains(@class, 'annonse-label')]])
-e24.no##:xpath(/html/body/div/div/div/div/div/div[div/div/div/div/div[contains(@class, 'annonse-label')]])
 e24.no##.component_content-marketing
 e24.no##[class^="hyperion-css-"]:has(> [id^="cs-teaser"] > div > [class="teaser__preview"]:has(.annonse-label))
 
