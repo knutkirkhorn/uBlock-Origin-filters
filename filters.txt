@@ -23,14 +23,14 @@ www.vg.no##.ad
 www.vg.no##.finn-placeholder
 www.vg.no##[id^="adPlacement"]
 www.vg.no##.partnerstudio-front
-# Block betting ads
-www.vg.no##.betting-widgets
 www.vg.no###finn-ad
 www.vg.no##.pustehullet
 www.vg.no##div.container:has(> [href^="https://www.vektklubb.no/bli-medlem"])
 www.vg.no##div.finn-blink-loaded
 www.vg.no##div.hyperion-css-2s0mxl
 www.vg.no##[id^="finn-netboard_article"]
+# Block betting ads
+www.vg.no##.betting-widgets
 
 # Block ads for www.adressa.no
 www.adressa.no##.polarisMarketing
