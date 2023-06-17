@@ -67,6 +67,7 @@ e24.no##.content-marketing-container
 e24.no##.component_content-marketing
 e24.no##[class^="hyperion-css-"]:has(> [id^="cs-teaser"] > div > [class="teaser__preview"]:has(.annonse-label))
 e24.no##div[class^="hyperion-css-"] > div[id^="dr-edition-teaser-"]
+e24.no##li:has(a.aksjelive-content-ad)
 
 # Block ads for https://www.fjordingen.no
 www.fjordingen.no##.polarisMarketing
