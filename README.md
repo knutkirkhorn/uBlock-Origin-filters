@@ -12,6 +12,8 @@
 
 ## Installation
 
+Click the "Import filter" badge above or follow the steps below:
+
 1. Go to uBlock Origin plugin options (click icon and then `Open the Dashboard`)
 2. Go to `Filter lists` tab
 3. Check `Import` under the `Custom` section
