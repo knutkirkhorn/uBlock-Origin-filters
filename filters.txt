@@ -114,5 +114,4 @@ polygonscan.com##:xpath(/html/body/div[1]/main/section/div/div/div[2]/div[a[3]/s
 polygonscan.com##:xpath(/html/body/div[1]/main/div[4]/div[div/div/a[3]/span[contains(text(), 'Ad')]])
 
 # Block ads for leekduck.com
-leekduck.com##.page-content > p
 leekduck.com##[id^="ad-"]
