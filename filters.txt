@@ -32,6 +32,7 @@ www.vg.no##.pustehullet
 www.vg.no##div.container:has(> [href^="https://www.vektklubb.no/bli-medlem"])
 www.vg.no##div.finn-blink-loaded
 www.vg.no##[id^="finn-netboard_article"]
+www.vg.no##[id^="finn-_article"]
 www.vg.no##.advert
 www.vg.no##.replace-if-empty.finn-dist
 # Block betting ads
