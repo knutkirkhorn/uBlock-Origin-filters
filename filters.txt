@@ -36,6 +36,7 @@ www.vg.no##[id^="finn-_article"]
 www.vg.no##.advert
 www.vg.no##.replace-if-empty.finn-dist
 www.vg.no##.advertory
+www.vg.no##[class^="advertory-vg-"]
 # Block betting ads
 www.vg.no##.betting-widgets
 
