@@ -121,3 +121,8 @@ polygonscan.com##:xpath(/html/body/div[1]/main/div[4]/div[div/div/a[3]/span[cont
 
 # Block ads for leekduck.com
 leekduck.com##[id^="ad-"]
+
+# Block ads for https://www.prisjakt.no
+prisjakt.no##aside[class^="OutsiderAds-"]
+prisjakt.no##div[class^="AdPlacementMarginTop-"]
+prisjakt.no##li[class^="Advert-"]
