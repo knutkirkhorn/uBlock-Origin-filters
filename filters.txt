@@ -62,8 +62,8 @@ www.tek.no##:xpath(/html/body/div[1]/div[3]/div[3]/main/div/div[div/div[1][conta
 www.tek.no##[id^="blinkAd-"]
 www.tek.no##div.advertory-common-netboard-wrapper
 
-# Block ads for https://trd.by
-trd.by##.polarisMarketing
+# Block ads for https://trdby.adressa.no
+trdby.adressa.no##.polarisMarketing
 
 # Block ads for https://e24.no
 e24.no##[id^="adPlacement"]
