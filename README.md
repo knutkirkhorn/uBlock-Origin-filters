@@ -19,3 +19,17 @@ Click the "Import filter" badge above or follow the steps below:
 3. Check `Import` under the `Custom` section
 4. Append [this URL](https://raw.githubusercontent.com/knutkirkhorn/uBlock-Origin-filters/main/filters.txt) (`https://raw.githubusercontent.com/knutkirkhorn/uBlock-Origin-filters/main/filters.txt`) to the input box
 5. Click <kbd>Apply changes</kbd>
+
+## Development
+
+### Install
+
+```bash
+bun install
+```
+
+### Lint
+
+```bash
+bun lint
+```
