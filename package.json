@@ -1,0 +1,9 @@
+{
+	"name": "ublock-origin-filters",
+	"scripts": {
+		"lint": "aglint"
+	},
+	"devDependencies": {
+		"@adguard/aglint": "^2.1.3"
+	}
+}
