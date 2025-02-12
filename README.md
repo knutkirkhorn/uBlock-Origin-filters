@@ -6,9 +6,9 @@
 
 ## Prerequisites
 
-* [uBlock Origin](https://github.com/gorhill/uBlock) plugin:
-    - For [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-    - For [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [uBlock Origin](https://github.com/gorhill/uBlock) plugin:
+  - For [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+  - For [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
 ## Installation
 
