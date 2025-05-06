@@ -1,5 +1,6 @@
 {
 	"name": "ublock-origin-filters",
+	"private": true,
 	"scripts": {
 		"lint": "aglint"
 	},
