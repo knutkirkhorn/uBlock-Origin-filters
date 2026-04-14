@@ -38,6 +38,7 @@ www.vg.no##.replace-if-empty.finn-dist
 www.vg.no##.advertory
 www.vg.no##[class^="advertory-vg-"]
 www.vg.no##.partnerstudio-dr-edition
+www.vg.no##[data-edition-name^="vg-partnerstudio-"]
 # Block betting ads
 www.vg.no##.betting-widgets
 
