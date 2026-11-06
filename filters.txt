@@ -128,3 +128,6 @@ leekduck.com##[id^="ad-"]
 prisjakt.no##aside[class^="OutsiderAds-"]
 prisjakt.no##div[class^="AdPlacementMarginTop-"]
 prisjakt.no##li[class^="Advert-"]
+
+# Block ads for https://www.finn.no
+finn.no##advt-component
