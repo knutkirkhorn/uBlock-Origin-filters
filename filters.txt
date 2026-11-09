@@ -132,3 +132,6 @@ prisjakt.no##li[class^="Advert-"]
 
 # Block ads for https://www.finn.no
 finn.no##advt-component
+
+# Block all requests to kilkaya.com
+||kilkaya.com^
