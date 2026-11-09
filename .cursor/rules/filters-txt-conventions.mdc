@@ -1,0 +1,23 @@
+---
+description: House style for adding and editing rules in filters.txt
+globs: filters.txt
+alwaysApply: false
+---
+
+# filters.txt conventions
+
+- Each site gets its own section headed by a comment: `# Block ads for https://www.example.no`
+- Put new filters under the site's existing section; add a new section at the end of the file only if the site has none.
+- Separate sections with one blank line.
+- Use sub-comments inside a section to explain non-obvious filters (e.g. `# Block betting ads`, `# Home page`).
+- Use the hostname style already used in that section. For new sites, prefer the bare domain (`finn.no##`) so subdomains are covered.
+- Comments use `#`; the `!` lines at the top are the list header — do not change them.
+- Do not add duplicates; check whether an existing filter already covers the element.
+
+```
+# Block ads for https://www.example.no
+example.no##advt-component
+example.no##[id^="adPlacement"]
+# Sponsored articles
+example.no##article:has(.sponsored-label)
+```
