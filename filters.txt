@@ -126,9 +126,14 @@ polygonscan.com##:xpath(/html/body/div[1]/main/div[4]/div[div/div/a[3]/span[cont
 leekduck.com##[id^="ad-"]
 
 # Block ads for https://www.prisjakt.no
-prisjakt.no##aside[class^="OutsiderAds-"]
 prisjakt.no##div[class^="AdPlacementMarginTop-"]
 prisjakt.no##li[class^="Advert-"]
+# Ad slots on all page layouts (front page, category and product pages)
+prisjakt.no##div:has(> div > [id^="no-prisjakt-"])
+prisjakt.no##aside:has([id^="no-prisjakt-"])
+# Wrappers that leave gaps on the front page and product pages
+prisjakt.no##div.empty\:hidden:has(> div > div > [id^="no-prisjakt-"])
+prisjakt.no##[data-sentry-component="MobileAdSlot"]
 
 # Block ads for https://www.finn.no
 finn.no##advt-component
