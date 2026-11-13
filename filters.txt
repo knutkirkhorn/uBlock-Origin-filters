@@ -131,9 +131,12 @@ prisjakt.no##li[class^="Advert-"]
 # Ad slots on all page layouts (front page, category and product pages)
 prisjakt.no##div:has(> div > [id^="no-prisjakt-"])
 prisjakt.no##aside:has([id^="no-prisjakt-"])
-# Wrappers that leave gaps on the front page and product pages
+# Wrappers that leave gaps on the front page, product pages and deal pages
 prisjakt.no##div.empty\:hidden:has(> div > div > [id^="no-prisjakt-"])
 prisjakt.no##[data-sentry-component="MobileAdSlot"]
+prisjakt.no##div.justify-center:has(> div > div > [id^="no-prisjakt-"])
+# Ad row inside the product grid on deal pages
+prisjakt.no##div.col-span-full:has(> div > div > [id^="no-prisjakt-"])
 
 # Block ads for https://www.finn.no
 finn.no##advt-component
